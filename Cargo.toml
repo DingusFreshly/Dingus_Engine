@@ -1,0 +1,11 @@
+[package]
+name = "Dingus_Engine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+winit = "0.30.12"
+rand = "0.9.2"
+pixels = { git = "https://github.com/parasyte/pixels.git", branch = "main" }
+slotmap = "1"
+bitflags = "2.10.0"
