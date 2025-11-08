@@ -20,7 +20,7 @@ pub enum BrickColour {
     Gray,
     Random,
 }
-
+//ts was all ai generated aint writting all ts, but its a pretty self explanitory colour struct
 impl Colour {
     /// Create a colour from u8 RGB (alpha defaults to 255)
     pub fn from_rgb(r: u8, g: u8, b: u8) -> Self {

@@ -1,39 +1,60 @@
+use std::any::Any;
+use std::hash::{Hash, Hasher};
+
 use crate::instances::*;
-use crate::instances::instance_descriptors::{InstanceDescriptor, Renderable, Instance};
+use crate::instances::instance_descriptors::{InstanceDescriptor, Renderable, Instance, InstanceFlags};
 use crate::render_2d::Renderer;
 use crate::types::Vector2;
 
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, PartialEq, Eq, Hash)]
 pub enum Shape2D {
-    Rect(u32, u32),  // width, height
-    Square(u32),     // size
-    Circle(u32),     // radius
-    Line(Vector2, Vector2), // start, end
+    Rect(u32, u32),
+    Square(u32),
+    Circle(u32),
+    Line(Vector2, Vector2),
 }
 
+#[derive(Clone, Debug, PartialEq, Eq, Hash)]
 pub struct FlatBody {
-    //pub instance_descriptor: InstanceDescriptor
     pub shape: Shape2D,
-    
     pub position: Vector2,
     pub color: [u8; 4],
 }
-impl FlatBody{
-    fn new() -> Self {
+
+impl FlatBody {
+    pub fn new() -> Self {
         FlatBody {
-            //instance_descriptor: InstanceDescriptor { name: String::from("FlatBody") },
             shape: Shape2D::Square(10),
             position: Vector2 { x: 0.0, y: 0.0 },
             color: [255, 255, 255, 255],
         }
     }
 }
+
+//
+// ─── INSTANCE IMPLEMENTATION ───────────────────────────────────────────────
+//
 impl Instance for FlatBody {
-    
+    fn as_any(&self) -> &dyn Any {
+        self
+    }
+    fn as_any_mut(&mut self) -> &mut dyn Any {
+        self
+    }
+    fn class_name(&self) -> &str {
+        "FlatBody"
+    }
+    fn as_renderable(&self) -> Option<&dyn Renderable> {
+        Some(self)
+    }
 }
 
+//
+// ─── RENDERABLE IMPLEMENTATION ─────────────────────────────────────────────
+//says how to draw ts
 impl Renderable for FlatBody {
     fn render(&self, renderer: &mut Renderer) {
+        println!("RENDERING FLATBODY");
         let (x, y) = (self.position.x as i64, self.position.y as i64);
         let color = self.color;
 

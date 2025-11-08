@@ -4,7 +4,7 @@ use winit::{
     event::{ WindowEvent, ElementState,KeyEvent},
     window::Window,
 };
-use crate::instances::{instance_manager::InstanceManager, instance_descriptors::Instance};
+use crate::instances::{instance_manager::InstanceManager, instance_descriptors::Instance, instance_descriptors::Renderable};
 
 use winit::event_loop::ActiveEventLoop;
 use winit::keyboard::{KeyCode, NamedKey, PhysicalKey};
@@ -57,6 +57,13 @@ impl DingusFramework {
     pub fn render(&mut self) {
         self.renderer.clear();
         
+        for inst_ref in self.instance_manager.instances.values() {
+            let inst = inst_ref.borrow();
+            if let Some(renderable) = inst.as_renderable() {
+                renderable.render(&mut self.renderer);
+            }
+        }
+
         render(self);
         self.window.request_redraw();
     }

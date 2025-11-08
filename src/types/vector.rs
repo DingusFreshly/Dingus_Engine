@@ -1,4 +1,5 @@
 use std::ops::{Add, AddAssign};
+use std::hash::Hash;
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub struct Vector2 {
     pub x: f64,
@@ -12,6 +13,15 @@ impl Vector2 {
         (self.x, self.y)
     }
 }
+impl Hash for Vector2 {
+    fn hash<H: std::hash::Hasher>(&self, state: &mut H) {
+        let x_bytes = self.x.to_ne_bytes();
+        let y_bytes = self.y.to_ne_bytes();
+        state.write(&x_bytes);
+        state.write(&y_bytes);
+    }
+}
+impl Eq for Vector2 {}//RIP float equality
 impl Add for Vector2 {
     type Output = Self;
     fn add(self, other: Self) -> Self {

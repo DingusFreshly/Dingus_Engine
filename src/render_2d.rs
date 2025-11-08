@@ -3,7 +3,7 @@ use pixels::{Pixels, SurfaceTexture};
 use winit::window::Window;
 
 pub const CHUNK_SIZE: usize = 4;
-
+//this is the drawing tool, has helpers to make dealing with the buffers doible
 pub struct Renderer {
     pub width: u32,
     pub height: u32,
@@ -18,7 +18,6 @@ pub enum Shape2D {
     Circle(u32),     // radius
     Line(i64,i64,i64,i64,)//x1,y1,x2, y2
 }
-
 impl  Renderer {
     pub fn new(window: Arc<Window>, background_color: [u8; CHUNK_SIZE]) -> Self {
 
@@ -61,7 +60,7 @@ impl  Renderer {
             let idx = ((y * self.width as i64 + x) * CHUNK_SIZE as i64) as usize;
             frame[idx..idx + CHUNK_SIZE].copy_from_slice(&color);
         } else {
-            // optional debug: println!("Pixel out of bounds: ({},{})", x, y);
+            //println!("peixel out of bounds: ({},{})", x, y);
         }
     }
 

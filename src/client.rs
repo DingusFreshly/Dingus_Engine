@@ -14,7 +14,8 @@ pub struct GameClient {
     
     framework: Option<DingusFramework>,
 }
-
+//this is the main game client, this is what the player runs to play the game
+//will eventaully make an engine struct, that wont do the run loop and everyhiing
 impl GameClient {
     pub fn new() -> Self {
         let framework = None;//DingusFramework::new();
@@ -31,7 +32,7 @@ impl GameClient {
         Ok(())
     }
 }
-
+//ApplicationHandler is a trait from winit that allows us to handle events
 impl ApplicationHandler for GameClient {
     fn resumed(&mut self, event_loop: &ActiveEventLoop) {
         let attrs = WindowAttributes::default().with_title("heheheha");
@@ -58,7 +59,7 @@ impl ApplicationHandler for GameClient {
                 framework.handle_input(event_loop, code, state);
             }
             WindowEvent::RedrawRequested => {
-                //println!("Redraw Requested!"); 
+                //println!("Redraw RREquested"); 
                 framework.update();
                 framework.render();
             }
