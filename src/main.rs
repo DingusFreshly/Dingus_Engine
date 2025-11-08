@@ -85,23 +85,14 @@ pub fn update(framework : &mut DingusFramework) {
 
 pub fn render(framework: &mut DingusFramework) {
     let renderer = &mut framework.renderer;
-
-    let game_state = &framework.game_state;
-    let position = game_state.get("position").unwrap();
     
-    let (pos_x, pos_y) = if let PropertyValue::Vector2(pos) = position {
-        (pos.x as i32, pos.y as i32)
-    } else {
-        (0, 0)
-    };
-
     renderer.present();
 }
 
 
 fn main() {
-    let target_fps : f64 = 20.0;
-    let mut client = GameClient::new();
+    //let target_fps : f64 = 20.0;
+    let client = GameClient::new();
     client.run();
 
 }
