@@ -12,7 +12,7 @@ The goal of Dingus Engine is for you to mold it into what you need for your proj
 Plans for the future: 
 - Right now it's in a framework stage, and I plan to add an engine application
 - A hierarchy system and a set of built in services with the game engine when that happens.
-- integrate with an embedded "scripting" language close to rust made by @unsigned_float_integer
+- integrate with an embedded "scripting" language close to rust made by [@anti-prism](https://github.com/anti-prism)
 
 Even once the engine is implemented, I still plan to add ways to interact with the engines guts. (basically open source but you don't have to dig through my messy ass code )
 
