@@ -1,0 +1,11 @@
+D:\Rust\Creations\Dingus_Engine\target\debug\deps\codespan_reporting-eda64da0cafbfbcd.d: D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\lib.rs D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\diagnostic.rs D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\files.rs D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\term.rs D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\term\config.rs D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\term\renderer.rs D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\term\views.rs
+
+D:\Rust\Creations\Dingus_Engine\target\debug\deps\libcodespan_reporting-eda64da0cafbfbcd.rmeta: D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\lib.rs D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\diagnostic.rs D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\files.rs D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\term.rs D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\term\config.rs D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\term\renderer.rs D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\term\views.rs
+
+D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\lib.rs:
+D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\diagnostic.rs:
+D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\files.rs:
+D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\term.rs:
+D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\term\config.rs:
+D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\term\renderer.rs:
+D:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\codespan-reporting-0.12.0\src\term\views.rs:

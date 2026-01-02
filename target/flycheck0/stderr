@@ -1,0 +1,1864 @@
+   0.367274900s  INFO prepare_target{force=false package_id=wgpu_renderer v0.1.0 (D:\Rust\Creations\Dingus_Engine) target="wgpu_renderer"}: cargo::core::compiler::fingerprint: stale: missing "D:\\Rust\\Creations\\Dingus_Engine\\target\\debug\\.fingerprint\\libloading-0963c75dd85ba733\\dep-lib-libloading"
+   0.373082300s  INFO prepare_target{force=false package_id=wgpu_renderer v0.1.0 (D:\Rust\Creations\Dingus_Engine) target="wgpu_renderer"}: cargo::core::compiler::fingerprint: stale: missing "D:\\Rust\\Creations\\Dingus_Engine\\target\\debug\\.fingerprint\\windows-result-7817f2ab22aa8fd3\\dep-lib-windows_result"
+   0.374967600s  INFO prepare_target{force=false package_id=wgpu_renderer v0.1.0 (D:\Rust\Creations\Dingus_Engine) target="wgpu_renderer"}: cargo::core::compiler::fingerprint: fingerprint error for wgpu_renderer v0.1.0 (D:\Rust\Creations\Dingus_Engine)/Check { test: false }/TargetInner { name: "wgpu_renderer", doc: true, ..: with_path("D:\\Rust\\Creations\\Dingus_Engine\\src\\main.rs", Edition2024) }
+   0.375003900s  INFO prepare_target{force=false package_id=wgpu_renderer v0.1.0 (D:\Rust\Creations\Dingus_Engine) target="wgpu_renderer"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\wgpu_renderer-8461f62e93227102\bin-wgpu_renderer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.391781000s  INFO prepare_target{force=false package_id=wgpu v27.0.1 target="wgpu"}: cargo::core::compiler::fingerprint: fingerprint error for wgpu v27.0.1/Check { test: false }/TargetInner { ..: lib_target("wgpu", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wgpu-27.0.1\\src\\lib.rs", Edition2021) }
+   0.391851400s  INFO prepare_target{force=false package_id=wgpu v27.0.1 target="wgpu"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\wgpu-60631fac07d9e850\lib-wgpu`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.393059800s  INFO prepare_target{force=false package_id=arrayvec v0.7.6 target="arrayvec"}: cargo::core::compiler::fingerprint: fingerprint error for arrayvec v0.7.6/Check { test: false }/TargetInner { ..: lib_target("arrayvec", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\arrayvec-0.7.6\\src\\lib.rs", Edition2018) }
+   0.393091100s  INFO prepare_target{force=false package_id=arrayvec v0.7.6 target="arrayvec"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\arrayvec-bd60b7efa38280e3\lib-arrayvec`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.394643100s  INFO prepare_target{force=false package_id=hashbrown v0.16.1 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint error for hashbrown v0.16.1/Check { test: false }/TargetInner { ..: lib_target("hashbrown", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hashbrown-0.16.1\\src\\lib.rs", Edition2021) }
+   0.394673200s  INFO prepare_target{force=false package_id=hashbrown v0.16.1 target="hashbrown"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\hashbrown-4a43f4251975b6d1\lib-hashbrown`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.395373300s  INFO prepare_target{force=false package_id=parking_lot v0.12.5 target="parking_lot"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot v0.12.5/Check { test: false }/TargetInner { ..: lib_target("parking_lot", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot-0.12.5\\src\\lib.rs", Edition2021) }
+   0.395411400s  INFO prepare_target{force=false package_id=parking_lot v0.12.5 target="parking_lot"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\parking_lot-3d1fa1bf3043ee42\lib-parking_lot`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.395796900s  INFO prepare_target{force=false package_id=lock_api v0.4.14 target="lock_api"}: cargo::core::compiler::fingerprint: fingerprint error for lock_api v0.4.14/Check { test: false }/TargetInner { ..: lib_target("lock_api", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\lock_api-0.4.14\\src\\lib.rs", Edition2021) }
+   0.395813200s  INFO prepare_target{force=false package_id=lock_api v0.4.14 target="lock_api"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\lock_api-c9fed628c7e7713c\lib-lock_api`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.396110000s  INFO prepare_target{force=false package_id=scopeguard v1.2.0 target="scopeguard"}: cargo::core::compiler::fingerprint: fingerprint error for scopeguard v1.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("scopeguard", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\scopeguard-1.2.0\\src\\lib.rs", Edition2015) }
+   0.396128300s  INFO prepare_target{force=false package_id=scopeguard v1.2.0 target="scopeguard"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\scopeguard-9b6a62bcf0bc3b77\lib-scopeguard`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.396414000s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="parking_lot_core"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot_core v0.9.12/Check { test: false }/TargetInner { ..: lib_target("parking_lot_core", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot_core-0.9.12\\src\\lib.rs", Edition2021) }
+   0.396430800s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="parking_lot_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\parking_lot_core-0c7e00797ac163ab\lib-parking_lot_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.400019100s  INFO prepare_target{force=false package_id=smallvec v1.15.1 target="smallvec"}: cargo::core::compiler::fingerprint: fingerprint error for smallvec v1.15.1/Check { test: false }/TargetInner { ..: lib_target("smallvec", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\smallvec-1.15.1\\src\\lib.rs", Edition2018) }
+   0.400146700s  INFO prepare_target{force=false package_id=smallvec v1.15.1 target="smallvec"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\smallvec-a5afbfbd642aca20\lib-smallvec`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.400993400s  INFO prepare_target{force=false package_id=profiling v1.0.17 target="profiling"}: cargo::core::compiler::fingerprint: fingerprint error for profiling v1.0.17/Check { test: false }/TargetInner { ..: lib_target("profiling", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\profiling-1.0.17\\src\\lib.rs", Edition2018) }
+   0.401018600s  INFO prepare_target{force=false package_id=profiling v1.0.17 target="profiling"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\profiling-514623638ceb7cf0\lib-profiling`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.401358000s  INFO prepare_target{force=false package_id=raw-window-handle v0.6.2 target="raw_window_handle"}: cargo::core::compiler::fingerprint: fingerprint error for raw-window-handle v0.6.2/Check { test: false }/TargetInner { ..: lib_target("raw_window_handle", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\raw-window-handle-0.6.2\\src\\lib.rs", Edition2021) }
+   0.401379100s  INFO prepare_target{force=false package_id=raw-window-handle v0.6.2 target="raw_window_handle"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\raw-window-handle-b1e435b08656242d\lib-raw_window_handle`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.401664600s  INFO prepare_target{force=false package_id=static_assertions v1.1.0 target="static_assertions"}: cargo::core::compiler::fingerprint: fingerprint error for static_assertions v1.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("static_assertions", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\static_assertions-1.1.0\\src\\lib.rs", Edition2015) }
+   0.401683500s  INFO prepare_target{force=false package_id=static_assertions v1.1.0 target="static_assertions"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\static_assertions-26b437a9bbc6e300\lib-static_assertions`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.403410300s  INFO prepare_target{force=false package_id=wgpu-core v27.0.3 target="wgpu_core"}: cargo::core::compiler::fingerprint: fingerprint error for wgpu-core v27.0.3/Check { test: false }/TargetInner { ..: lib_target("wgpu_core", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wgpu-core-27.0.3\\src\\lib.rs", Edition2021) }
+   0.403437900s  INFO prepare_target{force=false package_id=wgpu-core v27.0.3 target="wgpu_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\wgpu-core-9b1ff797792ee657\lib-wgpu_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.407908400s  INFO prepare_target{force=false package_id=bit-set v0.8.0 target="bit_set"}: cargo::core::compiler::fingerprint: fingerprint error for bit-set v0.8.0/Check { test: false }/TargetInner { ..: lib_target("bit_set", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bit-set-0.8.0\\src\\lib.rs", Edition2015) }
+   0.408098300s  INFO prepare_target{force=false package_id=bit-set v0.8.0 target="bit_set"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\bit-set-a5616bb69fd545c8\lib-bit_set`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.408750500s  INFO prepare_target{force=false package_id=bit-vec v0.8.0 target="bit_vec"}: cargo::core::compiler::fingerprint: fingerprint error for bit-vec v0.8.0/Check { test: false }/TargetInner { ..: lib_target("bit_vec", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bit-vec-0.8.0\\src\\lib.rs", Edition2015) }
+   0.408789600s  INFO prepare_target{force=false package_id=bit-vec v0.8.0 target="bit_vec"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\bit-vec-9cf9fffd874dd3e2\lib-bit_vec`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.409176100s  INFO prepare_target{force=false package_id=bytemuck v1.24.0 target="bytemuck"}: cargo::core::compiler::fingerprint: fingerprint error for bytemuck v1.24.0/Check { test: false }/TargetInner { ..: lib_target("bytemuck", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bytemuck-1.24.0\\src\\lib.rs", Edition2018) }
+   0.409199100s  INFO prepare_target{force=false package_id=bytemuck v1.24.0 target="bytemuck"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\bytemuck-4547d050a6eed433\lib-bytemuck`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.416298800s  INFO prepare_target{force=false package_id=indexmap v2.12.1 target="indexmap"}: cargo::core::compiler::fingerprint: fingerprint error for indexmap v2.12.1/Check { test: false }/TargetInner { benched: false, ..: lib_target("indexmap", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\indexmap-2.12.1\\src\\lib.rs", Edition2021) }
+   0.416338000s  INFO prepare_target{force=false package_id=indexmap v2.12.1 target="indexmap"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\indexmap-f01e8d6e6b30e570\lib-indexmap`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.416833100s  INFO prepare_target{force=false package_id=equivalent v1.0.2 target="equivalent"}: cargo::core::compiler::fingerprint: fingerprint error for equivalent v1.0.2/Check { test: false }/TargetInner { ..: lib_target("equivalent", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\equivalent-1.0.2\\src\\lib.rs", Edition2015) }
+   0.416857800s  INFO prepare_target{force=false package_id=equivalent v1.0.2 target="equivalent"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\equivalent-a82a1228783d4ddb\lib-equivalent`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.417203200s  INFO prepare_target{force=false package_id=naga v27.0.3 target="naga"}: cargo::core::compiler::fingerprint: fingerprint error for naga v27.0.3/Check { test: false }/TargetInner { ..: lib_target("naga", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\naga-27.0.3\\src\\lib.rs", Edition2021) }
+   0.417224100s  INFO prepare_target{force=false package_id=naga v27.0.3 target="naga"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\naga-09d072e1c8e406de\lib-naga`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.418795400s  INFO prepare_target{force=false package_id=codespan-reporting v0.12.0 target="codespan_reporting"}: cargo::core::compiler::fingerprint: fingerprint error for codespan-reporting v0.12.0/Check { test: false }/TargetInner { ..: lib_target("codespan_reporting", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\codespan-reporting-0.12.0\\src\\lib.rs", Edition2021) }
+   0.418892700s  INFO prepare_target{force=false package_id=codespan-reporting v0.12.0 target="codespan_reporting"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\codespan-reporting-eda64da0cafbfbcd\lib-codespan_reporting`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.419795900s  INFO prepare_target{force=false package_id=unicode-width v0.2.2 target="unicode_width"}: cargo::core::compiler::fingerprint: fingerprint error for unicode-width v0.2.2/Check { test: false }/TargetInner { ..: lib_target("unicode_width", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\unicode-width-0.2.2\\src\\lib.rs", Edition2021) }
+   0.419820200s  INFO prepare_target{force=false package_id=unicode-width v0.2.2 target="unicode_width"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\unicode-width-315308026099e8c0\lib-unicode_width`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.420122000s  INFO prepare_target{force=false package_id=half v2.7.1 target="half"}: cargo::core::compiler::fingerprint: fingerprint error for half v2.7.1/Check { test: false }/TargetInner { ..: lib_target("half", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\half-2.7.1\\src\\lib.rs", Edition2021) }
+   0.420137800s  INFO prepare_target{force=false package_id=half v2.7.1 target="half"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\half-c8059bf47f01edcd\lib-half`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.420376700s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\src\\lib.rs", Edition2021) }
+   0.420388900s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\num-traits-bdb2afce55da13c5\lib-num_traits`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.420591800s  INFO prepare_target{force=false package_id=libm v0.2.15 target="libm"}: cargo::core::compiler::fingerprint: fingerprint error for libm v0.2.15/Check { test: false }/TargetInner { ..: lib_target("libm", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libm-0.2.15\\src\\lib.rs", Edition2021) }
+   0.420603500s  INFO prepare_target{force=false package_id=libm v0.2.15 target="libm"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\libm-34fae88177998145\lib-libm`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.422686800s  INFO prepare_target{force=false package_id=zerocopy v0.8.31 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.31/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.8.31\\src\\lib.rs", Edition2021) }
+   0.422709400s  INFO prepare_target{force=false package_id=zerocopy v0.8.31 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\zerocopy-54a18e535097ca8d\lib-zerocopy`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.424023800s  INFO prepare_target{force=false package_id=hexf-parse v0.2.1 target="hexf_parse"}: cargo::core::compiler::fingerprint: fingerprint error for hexf-parse v0.2.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hexf_parse", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hexf-parse-0.2.1\\src\\lib.rs", Edition2018) }
+   0.424047400s  INFO prepare_target{force=false package_id=hexf-parse v0.2.1 target="hexf_parse"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\hexf-parse-b4c5a81e8ddc13de\lib-hexf_parse`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.425608300s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell v1.21.3/Check { test: false }/TargetInner { ..: lib_target("once_cell", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\once_cell-1.21.3\\src\\lib.rs", Edition2021) }
+   0.425651100s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\once_cell-eb4f81005403a2f7\lib-once_cell`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.426042100s  INFO prepare_target{force=false package_id=rustc-hash v1.1.0 target="rustc_hash"}: cargo::core::compiler::fingerprint: fingerprint error for rustc-hash v1.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rustc_hash", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rustc-hash-1.1.0\\src\\lib.rs", Edition2015) }
+   0.426062800s  INFO prepare_target{force=false package_id=rustc-hash v1.1.0 target="rustc_hash"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\rustc-hash-ddd33457f0d81e76\lib-rustc_hash`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.426311300s  INFO prepare_target{force=false package_id=spirv v0.3.0+sdk-1.3.268.0 target="spirv"}: cargo::core::compiler::fingerprint: fingerprint error for spirv v0.3.0+sdk-1.3.268.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("spirv", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\spirv-0.3.0+sdk-1.3.268.0\\lib.rs", Edition2018) }
+   0.426326600s  INFO prepare_target{force=false package_id=spirv v0.3.0+sdk-1.3.268.0 target="spirv"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\spirv-68c6b77ba2334e9b\lib-spirv`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.428808000s  INFO prepare_target{force=false package_id=unicode-ident v1.0.22 target="unicode_ident"}: cargo::core::compiler::fingerprint: fingerprint error for unicode-ident v1.0.22/Check { test: false }/TargetInner { ..: lib_target("unicode_ident", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\unicode-ident-1.0.22\\src\\lib.rs", Edition2018) }
+   0.428847400s  INFO prepare_target{force=false package_id=unicode-ident v1.0.22 target="unicode_ident"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\unicode-ident-299cc0cc7ae5c092\lib-unicode_ident`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.430230800s  INFO prepare_target{force=false package_id=wgpu-core-deps-windows-linux-android v27.0.0 target="wgpu_core_deps_windows_linux_android"}: cargo::core::compiler::fingerprint: fingerprint error for wgpu-core-deps-windows-linux-android v27.0.0/Check { test: false }/TargetInner { ..: lib_target("wgpu_core_deps_windows_linux_android", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wgpu-core-deps-windows-linux-android-27.0.0\\src\\lib.rs", Edition2021) }
+   0.430260600s  INFO prepare_target{force=false package_id=wgpu-core-deps-windows-linux-android v27.0.0 target="wgpu_core_deps_windows_linux_android"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\wgpu-core-deps-windows-linux-android-ca9b85765f3f8c1e\lib-wgpu_core_deps_windows_linux_android`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.431241400s  INFO prepare_target{force=false package_id=wgpu-hal v27.0.4 target="wgpu_hal"}: cargo::core::compiler::fingerprint: fingerprint error for wgpu-hal v27.0.4/Check { test: false }/TargetInner { ..: lib_target("wgpu_hal", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wgpu-hal-27.0.4\\src\\lib.rs", Edition2021) }
+   0.431264200s  INFO prepare_target{force=false package_id=wgpu-hal v27.0.4 target="wgpu_hal"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\wgpu-hal-fedbb84de869dd5c\lib-wgpu_hal`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.432564200s  INFO prepare_target{force=false package_id=ash v0.38.0+1.3.281 target="ash"}: cargo::core::compiler::fingerprint: fingerprint error for ash v0.38.0+1.3.281/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ash", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ash-0.38.0+1.3.281\\src\\lib.rs", Edition2021) }
+   0.432591200s  INFO prepare_target{force=false package_id=ash v0.38.0+1.3.281 target="ash"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\ash-4cba644ddf03b6cc\lib-ash`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.434590500s  INFO prepare_target{force=false package_id=libloading v0.8.9 target="libloading"}: cargo::core::compiler::fingerprint: fingerprint error for libloading v0.8.9/Check { test: false }/TargetInner { ..: lib_target("libloading", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libloading-0.8.9\\src\\lib.rs", Edition2015) }
+   0.434622700s  INFO prepare_target{force=false package_id=libloading v0.8.9 target="libloading"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\libloading-0963c75dd85ba733\lib-libloading`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.435051800s  INFO prepare_target{force=false package_id=glow v0.16.0 target="glow"}: cargo::core::compiler::fingerprint: fingerprint error for glow v0.16.0/Check { test: false }/TargetInner { ..: lib_target("glow", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\glow-0.16.0\\src\\lib.rs", Edition2021) }
+   0.435076400s  INFO prepare_target{force=false package_id=glow v0.16.0 target="glow"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\glow-6ea06be1d49406a9\lib-glow`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.435352800s  INFO prepare_target{force=false package_id=glutin_wgl_sys v0.6.1 target="glutin_wgl_sys"}: cargo::core::compiler::fingerprint: fingerprint error for glutin_wgl_sys v0.6.1/Check { test: false }/TargetInner { ..: lib_target("glutin_wgl_sys", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\glutin_wgl_sys-0.6.1\\src\\lib.rs", Edition2021) }
+   0.435370100s  INFO prepare_target{force=false package_id=glutin_wgl_sys v0.6.1 target="glutin_wgl_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\glutin_wgl_sys-18f10cafed76a6b3\lib-glutin_wgl_sys`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.438017300s  INFO prepare_target{force=false package_id=gpu-alloc v0.6.0 target="gpu_alloc"}: cargo::core::compiler::fingerprint: fingerprint error for gpu-alloc v0.6.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("gpu_alloc", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\gpu-alloc-0.6.0\\src\\lib.rs", Edition2018) }
+   0.438041900s  INFO prepare_target{force=false package_id=gpu-alloc v0.6.0 target="gpu_alloc"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\gpu-alloc-c9ddf527d2f590d2\lib-gpu_alloc`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.438379700s  INFO prepare_target{force=false package_id=gpu-alloc-types v0.3.0 target="gpu_alloc_types"}: cargo::core::compiler::fingerprint: fingerprint error for gpu-alloc-types v0.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("gpu_alloc_types", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\gpu-alloc-types-0.3.0\\src\\lib.rs", Edition2018) }
+   0.438398200s  INFO prepare_target{force=false package_id=gpu-alloc-types v0.3.0 target="gpu_alloc_types"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\gpu-alloc-types-fdf338b8096c51fa\lib-gpu_alloc_types`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.438697300s  INFO prepare_target{force=false package_id=gpu-allocator v0.27.0 target="gpu_allocator"}: cargo::core::compiler::fingerprint: fingerprint error for gpu-allocator v0.27.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("gpu_allocator", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\gpu-allocator-0.27.0\\src\\lib.rs", Edition2021) }
+   0.438719400s  INFO prepare_target{force=false package_id=gpu-allocator v0.27.0 target="gpu_allocator"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\gpu-allocator-a39c42b9af32acf4\lib-gpu_allocator`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.439193700s  INFO prepare_target{force=false package_id=presser v0.3.1 target="presser"}: cargo::core::compiler::fingerprint: fingerprint error for presser v0.3.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("presser", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\presser-0.3.1\\src\\lib.rs", Edition2021) }
+   0.439211800s  INFO prepare_target{force=false package_id=presser v0.3.1 target="presser"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\presser-8459dff74d63525b\lib-presser`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.439567100s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v1.0.69/Check { test: false }/TargetInner { ..: lib_target("thiserror", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-1.0.69\\src\\lib.rs", Edition2021) }
+   0.439607300s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\thiserror-e439c02e35974390\lib-thiserror`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.441106400s  INFO prepare_target{force=false package_id=windows v0.58.0 target="windows"}: cargo::core::compiler::fingerprint: fingerprint error for windows v0.58.0/Check { test: false }/TargetInner { tested: false, doctest: false, ..: lib_target("windows", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-0.58.0\\src\\lib.rs", Edition2021) }
+   0.441130300s  INFO prepare_target{force=false package_id=windows v0.58.0 target="windows"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\windows-7ec864145ee9942d\lib-windows`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.441626900s  INFO prepare_target{force=false package_id=windows-core v0.58.0 target="windows_core"}: cargo::core::compiler::fingerprint: fingerprint error for windows-core v0.58.0/Check { test: false }/TargetInner { ..: lib_target("windows_core", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-core-0.58.0\\src\\lib.rs", Edition2021) }
+   0.441645800s  INFO prepare_target{force=false package_id=windows-core v0.58.0 target="windows_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\windows-core-c888c02babf52cbf\lib-windows_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.442283800s  INFO prepare_target{force=false package_id=windows-result v0.2.0 target="windows_result"}: cargo::core::compiler::fingerprint: fingerprint error for windows-result v0.2.0/Check { test: false }/TargetInner { ..: lib_target("windows_result", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-result-0.2.0\\src\\lib.rs", Edition2021) }
+   0.442301800s  INFO prepare_target{force=false package_id=windows-result v0.2.0 target="windows_result"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\windows-result-7817f2ab22aa8fd3\lib-windows_result`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_path
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_filter_source_repo
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   0.443952000s  INFO prepare_target{force=false package_id=windows-strings v0.1.0 target="windows_strings"}: cargo::core::compiler::fingerprint: fingerprint error for windows-strings v0.1.0/Check { test: false }/TargetInner { ..: lib_target("windows_strings", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-strings-0.1.0\\src\\lib.rs", Edition2021) }
+   0.443983000s  INFO prepare_target{force=false package_id=windows-strings v0.1.0 target="windows_strings"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\windows-strings-4227bcf50d7c29de\lib-windows_strings`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_path
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_filter_source_repo
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   0.444396800s  INFO prepare_target{force=false package_id=gpu-descriptor v0.3.2 target="gpu_descriptor"}: cargo::core::compiler::fingerprint: fingerprint error for gpu-descriptor v0.3.2/Check { test: false }/TargetInner { ..: lib_target("gpu_descriptor", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\gpu-descriptor-0.3.2\\src\\lib.rs", Edition2018) }
+   0.444495700s  INFO prepare_target{force=false package_id=gpu-descriptor v0.3.2 target="gpu_descriptor"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\gpu-descriptor-64106f0317e2adf6\lib-gpu_descriptor`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.446310800s  INFO prepare_target{force=false package_id=gpu-descriptor-types v0.2.0 target="gpu_descriptor_types"}: cargo::core::compiler::fingerprint: fingerprint error for gpu-descriptor-types v0.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("gpu_descriptor_types", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\gpu-descriptor-types-0.2.0\\src\\lib.rs", Edition2018) }
+   0.446472400s  INFO prepare_target{force=false package_id=gpu-descriptor-types v0.2.0 target="gpu_descriptor_types"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\gpu-descriptor-types-849b984c4fd98d5a\lib-gpu_descriptor_types`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.448413300s  INFO prepare_target{force=false package_id=hashbrown v0.15.5 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint error for hashbrown v0.15.5/Check { test: false }/TargetInner { ..: lib_target("hashbrown", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hashbrown-0.15.5\\src\\lib.rs", Edition2021) }
+   0.448442400s  INFO prepare_target{force=false package_id=hashbrown v0.15.5 target="hashbrown"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\hashbrown-14d5b3f80b96f89d\lib-hashbrown`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.448904600s  INFO prepare_target{force=false package_id=foldhash v0.1.5 target="foldhash"}: cargo::core::compiler::fingerprint: fingerprint error for foldhash v0.1.5/Check { test: false }/TargetInner { benched: false, ..: lib_target("foldhash", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\foldhash-0.1.5\\src\\lib.rs", Edition2021) }
+   0.448927700s  INFO prepare_target{force=false package_id=foldhash v0.1.5 target="foldhash"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\foldhash-ba1d1cac4270f83d\lib-foldhash`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.449421600s  INFO prepare_target{force=false package_id=khronos-egl v6.0.0 target="khronos_egl"}: cargo::core::compiler::fingerprint: fingerprint error for khronos-egl v6.0.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("khronos_egl", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\khronos-egl-6.0.0\\src\\lib.rs", Edition2021) }
+   0.449480700s  INFO prepare_target{force=false package_id=khronos-egl v6.0.0 target="khronos_egl"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\khronos-egl-c54debdb0e79eee8\lib-khronos_egl`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.452674100s  INFO prepare_target{force=false package_id=libc v0.2.178 target="libc"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.178/Check { test: false }/TargetInner { ..: lib_target("libc", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libc-0.2.178\\src\\lib.rs", Edition2021) }
+   0.452738000s  INFO prepare_target{force=false package_id=libc v0.2.178 target="libc"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\libc-bd15f031e2c8dc7c\lib-libc`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.455484400s  INFO prepare_target{force=false package_id=ordered-float v5.1.0 target="ordered_float"}: cargo::core::compiler::fingerprint: fingerprint error for ordered-float v5.1.0/Check { test: false }/TargetInner { ..: lib_target("ordered_float", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ordered-float-5.1.0\\src\\lib.rs", Edition2021) }
+   0.455514300s  INFO prepare_target{force=false package_id=ordered-float v5.1.0 target="ordered_float"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\ordered-float-681e2589b0374f6e\lib-ordered_float`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.455979400s  INFO prepare_target{force=false package_id=range-alloc v0.1.4 target="range_alloc"}: cargo::core::compiler::fingerprint: fingerprint error for range-alloc v0.1.4/Check { test: false }/TargetInner { ..: lib_target("range_alloc", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\range-alloc-0.1.4\\src\\lib.rs", Edition2018) }
+   0.455999300s  INFO prepare_target{force=false package_id=range-alloc v0.1.4 target="range_alloc"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\range-alloc-4b10b69c9ccc71a2\lib-range_alloc`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.456333600s  INFO prepare_target{force=false package_id=renderdoc-sys v1.1.0 target="renderdoc_sys"}: cargo::core::compiler::fingerprint: fingerprint error for renderdoc-sys v1.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("renderdoc_sys", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\renderdoc-sys-1.1.0\\src\\lib.rs", Edition2015) }
+   0.456353700s  INFO prepare_target{force=false package_id=renderdoc-sys v1.1.0 target="renderdoc_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\renderdoc-sys-fafd8216e097682e\lib-renderdoc_sys`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.457445100s  INFO prepare_target{force=false package_id=wgpu-types v27.0.1 target="wgpu_types"}: cargo::core::compiler::fingerprint: fingerprint error for wgpu-types v27.0.1/Check { test: false }/TargetInner { ..: lib_target("wgpu_types", ["lib"], "D:\\Rust\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wgpu-types-27.0.1\\src\\lib.rs", Edition2021) }
+   0.457462300s  INFO prepare_target{force=false package_id=wgpu-types v27.0.1 target="wgpu_types"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\wgpu-types-7b48946686cb2453\lib-wgpu_types`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.457927700s  INFO prepare_target{force=false package_id=wgpu_renderer v0.1.0 (D:\Rust\Creations\Dingus_Engine) target="wgpu_renderer"}: cargo::core::compiler::fingerprint: fingerprint error for wgpu_renderer v0.1.0 (D:\Rust\Creations\Dingus_Engine)/Check { test: true }/TargetInner { name: "wgpu_renderer", doc: true, ..: with_path("D:\\Rust\\Creations\\Dingus_Engine\\src\\main.rs", Edition2024) }
+   0.457945700s  INFO prepare_target{force=false package_id=wgpu_renderer v0.1.0 (D:\Rust\Creations\Dingus_Engine) target="wgpu_renderer"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Rust\Creations\Dingus_Engine\target\debug\.fingerprint\wgpu_renderer-2a6e0b6de3b666a6\test-bin-wgpu_renderer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking libm v0.2.15
+    Checking windows-result v0.2.0
+    Checking zerocopy v0.8.31
+    Checking hashbrown v0.16.1
+    Checking libloading v0.8.9
+    Checking smallvec v1.15.1
+    Checking unicode-width v0.2.2
+    Checking bit-vec v0.8.0
+    Checking windows-strings v0.1.0
+    Checking scopeguard v1.2.0
+    Checking equivalent v1.0.2
+    Checking foldhash v0.1.5
+    Checking bit-set v0.8.0
+    Checking lock_api v0.4.14
+    Checking windows-core v0.58.0
+    Checking hashbrown v0.15.5
+    Checking parking_lot_core v0.9.12
+    Checking codespan-reporting v0.12.0
+    Checking indexmap v2.12.1
+    Checking libc v0.2.178
+    Checking num-traits v0.2.19
+    Checking thiserror v1.0.69
+    Checking bytemuck v1.24.0
+    Checking gpu-alloc-types v0.3.0
+    Checking gpu-descriptor-types v0.2.0
+    Checking spirv v0.3.0+sdk-1.3.268.0
+    Checking once_cell v1.21.3
+    Checking presser v0.3.1
+    Checking rustc-hash v1.1.0
+    Checking windows v0.58.0
+    Checking hexf-parse v0.2.1
+    Checking unicode-ident v1.0.22
+    Checking arrayvec v0.7.6
+    Checking wgpu-types v27.0.1
+    Checking half v2.7.1
+    Checking ordered-float v5.1.0
+    Checking gpu-descriptor v0.3.2
+    Checking gpu-alloc v0.6.0
+    Checking glutin_wgl_sys v0.6.1
+    Checking khronos-egl v6.0.0
+    Checking parking_lot v0.12.5
+    Checking ash v0.38.0+1.3.281
+    Checking range-alloc v0.1.4
+    Checking naga v27.0.3
+    Checking raw-window-handle v0.6.2
+    Checking profiling v1.0.17
+    Checking glow v0.16.0
+    Checking renderdoc-sys v1.1.0
+    Checking static_assertions v1.1.0
+    Checking gpu-allocator v0.27.0
+    Checking wgpu-hal v27.0.4
+    Checking wgpu-core-deps-windows-linux-android v27.0.0
+    Checking wgpu-core v27.0.3
+    Checking wgpu v27.0.1
+    Checking wgpu_renderer v0.1.0 (D:\Rust\Creations\Dingus_Engine)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 36.22s
